@@ -8,11 +8,13 @@ function Home() {
     
       
   
-      <div className=' flex bg-[rgb(43,46,53)] text-white'>
+      <div className=' flex bg-slate-600 text-white'>
           
       <SideBar/>
 
-          <div className="content w-[80%] h-screen">
+        <div className="content w-[80%] ">
+          
+          <div className="search-bar"></div>
               
               
 

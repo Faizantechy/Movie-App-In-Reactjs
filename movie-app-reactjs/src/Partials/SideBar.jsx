@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function SideBar() {
   return (
-      <div className=' w-[20%] h-full px-7 py-5 space-y-6 border-r-sky-200'>
+      <div className='lg:w-[20% lg:px-5 lg:py-8 lg:h-full lg:border-r lg:border-black'>
      
 
           <h1 className='text-3xl font-bold'><i className="ri-play-circle-fill text-purple-600"></i> SCSDB</h1>
@@ -26,7 +26,7 @@ function SideBar() {
 
               <hr className='h-[2px] bg-black w-full mt-4' />
 
-              <h2 className='mt-3 font-bold text-xl'>Website Information</h2>
+        <h2 className='mt-3 font-bold text-xl'>Website Information</h2>
 
               
               <ul className='flex flex-col gap-7 text-xl ml-2 mt-5 font-semibold'>
